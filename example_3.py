@@ -20,4 +20,6 @@ async def main():
     except CancelledError:
         print('Наша задача была снята.')
 
+
+
 asyncio.run(main())
